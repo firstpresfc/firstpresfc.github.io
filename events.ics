@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//advent-follow-along//advent-2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Advent Devotional: Services and special events
+X-WR-CALDESC:Christmas services\, the pageant and family events.
+X-WR-TIMEZONE:America/Denver
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:America/Denver
+BEGIN:DAYLIGHT
+DTSTART:20250309T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261101T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sunday-worship@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261129T100000
+DTEND;TZID=America/Denver:20261129T110000
+RRULE:FREQ=WEEKLY;UNTIL=20261221T065959Z
+EXDATE;TZID=America/Denver:20261220T100000
+SUMMARY:Sunday worship
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-fellowship@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261129T110000
+DTEND;TZID=America/Denver:20261129T120000
+RRULE:FREQ=WEEKLY;UNTIL=20261221T065959Z
+SUMMARY:Coffee Fellowship
+LOCATION:Shepardson Hall
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:habitat-gingerbread-build@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261202T170000
+DTEND;TZID=America/Denver:20261202T193000
+SUMMARY:Habitat for Humanity Gingerbread House Build
+LOCATION:Shepardson Hall East and West
+DESCRIPTION:Gather a team of 5 to build the most creative and stable ginger
+ bread house and win the Golden Gingerbread. $50 per team\, with all procee
+ ds going to Habitat's Common Ground Faith Build. Teams must pre-register: 
+ contact Chad Bauer\, Habitat's Faith Engagement Manager\, at cbauer@fortco
+ llinshabitat.org.\n\nMore in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:snl-brunch@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261206T111500
+DTEND;TZID=America/Denver:20261206T131500
+SUMMARY:Sunday Night Live: Brunch after Church
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:bells-of-christmas@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261206T190000
+DTEND;TZID=America/Denver:20261206T200000
+SUMMARY:Bells of Christmas
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:snl-gingerbread-houses@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261213T160000
+DTEND;TZID=America/Denver:20261213T180000
+SUMMARY:Sunday Night Live: Gingerbread House Contest
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:larimer-chorale-afternoon@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261219T140000
+SUMMARY:Larimer Chorale Concert
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:larimer-chorale-evening@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261219T193000
+SUMMARY:Larimer Chorale Concert
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-play@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261220T100000
+DTEND;TZID=America/Denver:20261220T110000
+SUMMARY:Kids' Christmas Play
+LOCATION:Sanctuary
+DESCRIPTION:The kids perform the Christmas play during the worship service.
+ \n\nMore in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:caroling@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261220T113000
+DTEND;TZID=America/Denver:20261220T140000
+SUMMARY:Caroling
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:longest-night-service@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261221T190000
+DTEND;TZID=America/Denver:20261221T200000
+SUMMARY:Longest Night Service
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-eve-worship@advent-follow-along
+DTSTAMP:20261120T040526Z
+DTSTART;TZID=America/Denver:20261224T150000
+DTEND;TZID=America/Denver:20261224T160000
+SUMMARY:Christmas Eve Worship
+LOCATION:Sanctuary
+DESCRIPTION:More in the app: https://advent.firstpresfc.org/
+URL:https://advent.firstpresfc.org/
+END:VEVENT
+END:VCALENDAR
